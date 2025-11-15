@@ -1,0 +1,14 @@
+{
+  "name": "hyderabad-hotels-leads",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "cd hotel-dashboard && npm run dev",
+    "build": "cd hotel-dashboard && npm install && npm run build",
+    "start": "cd hotel-dashboard && npm start",
+    "install": "cd hotel-dashboard && npm install"
+  },
+  "workspaces": [
+    "hotel-dashboard"
+  ]
+}
